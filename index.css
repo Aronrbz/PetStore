@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.abajo
+{
+    text-align: left;
+    margin-top: 270px;
+    color:azure;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(53, 184, 74, 0.658);
+}
+
+
+.cabecera {
+    background-color: rgb(14, 48, 77);
+}
+
+.centrar{
+    margin: auto;
+    text-align: center;
+}
+
+.menu{
+    background-color: white;
+    height: 30px;
+    padding: 0%;
+}
+
+.menubtn{
+    text-decoration: none;
+    text-align: center;
+    color:rgb(14, 48, 77);
+    margin: auto;
+    border-radius: 7px;
+}
+
+.menubtn:hover{
+    background: rgb(14, 48, 77);
+    color: white;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 500px 75px 500px;
+}
+
+
+.nosotros 
+{
+    margin: 50px auto;    
+}
+
+.nosotros h1
+{
+    text-align: center;
+    font-weight: bold;
+    color:  rgb(13, 59, 99);
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.nosotros h1::after
+{
+    content: '';
+    background:  #ff9900;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.nosotros p{
+
+    color: rgb(13, 59, 99);
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.nosotros .row
+{
+    margin-top: 30px;
+}
+
+.col-md-4
+{
+    margin: 20px auto;
+    color: rgb(13, 59, 99);
+}
+
+.col-md-5
+{
+    margin: 20px auto;
+    color: rgb(13, 59, 99);
+}
+
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: rgba(172, 213, 179, 0.618);
+}
+
+.links
+{
+
+    text-align: left;
+}
+
+
+.user
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.profile h3
+{
+    font-size: 20px;
+    margin-top:  15px;
+    color: #ff9800;
+}
+
+span
+{
+    font-size: 12px;
+    color: #333;
+}
+
+blockquote
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(13, 59, 99);
+}
+
+.profile:hover
+{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0,5s;
+}
+
+.carousel-item p{
+    width: 100px,50px,50px,500px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.660);
+    font-weight: bold;
+
+}
+
+.carousel-item h5{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.660);
+    font-weight: bold;
+
+}
+
+.carousel-item h4{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.660);
+    font-weight: bold;
+
+}
+
+.links-2
+{
+
+    text-align: center;
+}

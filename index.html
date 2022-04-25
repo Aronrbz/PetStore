@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PetStore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+  <div class="container">
+    <nav class="fixed-top cabecera">
+      <div class="row">
+          <div class="col-4">
+               <img src="images/logo.svg" style="padding:20px;">
+          </div>
+      <div class="col-2 centrar">
+          <a href="seguimiento.html" style="text-decoration: none; color: white;">Seguimiento de compra</a>
+      </div>
+      <div class="col-2 centrar">
+          <a href="carro.html" style="text-decoration: none; color: white;">Carrito de compras</a>
+      </div>
+      <div class="col-4 centrar">
+          <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+      </div>
+      
+      <div class="row menu">
+      <div class="col-1"></div>
+      <div class="col-2 menubtn">
+          <a href="index.html" class="menubtn">Inicio</a>
+      </div>
+      <div class="col-2 menubtn">
+          <a href="nosotros.html" class="menubtn">Nosotros</a>
+      </div>
+      <div class="col-2 menubtn">
+          <a href="tienda2.html" class="menubtn">Tienda</a>  
+      </div>
+      <div class="col-2 menubtn">
+          <a href="index.html" class="menubtn">Donaciones</a>
+      </div>
+      <div class="col-2 menubtn">
+          <a href="contactenos.html" class="menubtn">Contáctenos</a>
+      </div>
+      <div class="col-1"></div>
+      </div>
+  </nav>
+    <div class="row" style="padding-top: 15%;">
+      <div class="col-3"></div>
+      <div class="col-6">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 0"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/inicio.jpg" class="d-block w-100" width="50px" height="500px" alt="gato 1">
+          <div class="carousel-caption d-none d-md-block">
+            <br>
+            <br>
+            <h5>Bienvenidos a</h5>
+            <h4>"PetStore"</h4>
+            <p>Un sitio dedicado al cuidado de animales y venta de accesorios para su cuidado.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/nosotros.jpg" class="d-block w-100" width="50px" height="500px" alt="Perro 1">
+          <div class="carousel-caption d-none d-md-block">
+            
+            <h5>Nostros</h5>
+            <p>Mira como esta conformado nuestro equipo pinchando</p>
+            <a href="nosotros.html"> aqui </a>
+          
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/tienda-pet-store.jpeg" class="d-block w-100" width="50px" height="500px" alt="gato 2">
+          <div class="carousel-caption d-none d-md-block">
+            <br>
+            <h5>Nuestra Tienda</h5>
+            <p>Lo mejor para tu compañero, esta pinchando.</p>
+            <a href="tienda2.html"> aqui </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/donaciones.jpg" class="d-block w-100" width="50px" height="500px" alt="Perro 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Donaciones</h5>
+            <p>¿Quieres contribuir? Este es el lugar.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/telefonos-atencion-cliente-operadoras.webp" class="d-block w-100" width="50px" height="500px" alt="Perro 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Contactenos</h5>
+            <p>Llena el formulario, para que nos puedas contactar pinchando</p>
+            <a href="contactenos.html">aqui</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="col-3"></div>
+  </div>
+</div>
+
+<footer class="abajo">
+  ©“copyright”. Todos los derechos reservados.
+    Web propiedad de Diego y Aron
+  </footer>
+
+</body>
+</html>
